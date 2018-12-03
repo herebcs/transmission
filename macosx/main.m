@@ -32,5 +32,8 @@ int main( int argc, char ** argv )
         putenv( env );
         free( env );
     }
+    
+    setiopolicy_np(IOPOL_TYPE_DISK, IOPOL_SCOPE_PROCESS, IOPOL_THROTTLE);
+    
     return NSApplicationMain( argc, (const char **) argv );
 }
