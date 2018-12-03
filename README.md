@@ -1,3 +1,9 @@
+## Changes in this fork
+
+- No AppNap on OSX
+- Default cache size is 1 GB (instead of the original 4 MB)
+- Low prio IO operations on OSX - to avoid interference with real time tasks (e.g. playing media from the disk that torrents are saved to)
+
 ## About
 
 Transmission is a fast, easy, and free BitTorrent client. It comes in several flavors:
