@@ -52,7 +52,7 @@ cat > libtransmission/version.h.new << EOF
 #define VCS_REVISION              "${vcs_revision}"
 #define VCS_REVISION_NUM          ${vcs_revision}
 #define SHORT_VERSION_STRING      "${user_agent_prefix}"
-#define LONG_VERSION_STRING       "${user_agent_prefix} (${vcs_revision})"
+#define LONG_VERSION_STRING       "${user_agent_prefix} with no AppNap, low prio IO and 1GB cache"
 #define VERSION_STRING_INFOPLIST  ${user_agent_prefix}
 #define BUILD_STRING_INFOPLIST    14714.${major_version}.${minor_version}
 #define MAJOR_VERSION             ${major_version}
