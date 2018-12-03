@@ -109,6 +109,8 @@ typedef enum
 
     BOOL                            fGlobalPopoverShown;
     BOOL                            fSoundPlaying;
+    
+    id                              noNapActivity;
 }
 
 - (void) openFiles: (NSArray *) filenames addType: (addType) type forcePath: (NSString *) path;
